@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:ems="14"
+        android:hint="Nombre completo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:ems="14"
+        android:hint="Indica la dirección"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/btGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Guardar" />
+
+    <TextView
+        android:id="@+id/tvDato1"
+        android:layout_width="match_parent"
+        android:layout_height="85dp" />
+
+    <TextView
+        android:id="@+id/tvDato2"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="TextView" />
+
+</LinearLayout>
